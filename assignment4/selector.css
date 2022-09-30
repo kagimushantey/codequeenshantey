@@ -1,0 +1,13 @@
+*{
+    background-color: aliceblue;
+}
+div{
+    border: whitesmoke 2px solid;
+    width: 100px;
+    height: 20px;
+    box-shadow: gray 5px 10px 5px;
+    padding: 10px;
+}
+[href]{
+    text-decoration: none;
+}
