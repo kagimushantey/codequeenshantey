@@ -1,0 +1,48 @@
+/* universal selector */
+*{
+    color: black;
+    background-color: rgb(220, 224, 227);
+    text-align: center;
+    padding: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* attribute selector */
+[href]{
+    text-decoration: none;
+    color: blueviolet;
+}
+[src]{
+    height:200px; 
+    width:200px; 
+    border: rgb(7, 46, 66) solid 6px; 
+    border-radius: 50%;
+}
+
+/* id selector */
+#mother{
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
+#name{
+text-decoration: double;
+color:rgb(7, 46, 66)
+;}
+#job{
+    text-decoration: double black;
+    color: rgb(42, 140, 107);
+}
+#lang{
+    color: rgb(41, 41, 92);
+}
+/* adjacent sibling selector */
+img + p,h3 + p{
+    color: rgb(59, 58, 58) ;
+}
+/* descendant selector */
+div div{
+    border: rgb(255, 255, 255) solid 2px;
+    border-radius: 4px;
+    margin-top: 20px;
+    box-shadow: grey 10px 5px 10px;
+}
